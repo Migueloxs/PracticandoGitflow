@@ -1,6 +1,6 @@
 header {
-    background-color: #000000;
-    color: white;
+    background-color: #554a4a;
+    color: rgb(255, 255, 255);
     padding: 10px 0;
 }
 
@@ -38,3 +38,4 @@ h1 {
 p {
     text-align: center;
 }
+
