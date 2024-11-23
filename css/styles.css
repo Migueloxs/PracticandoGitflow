@@ -71,7 +71,7 @@ p {
 .empanada h3 {
     margin: 0; 
     font-size: 35px;
-    color: #242323;
+    color: #361616da;
 }
 
 .empanada p {
@@ -107,4 +107,17 @@ p {
 
 #empanadas img:hover {
     transform: scale(1.05); 
+}
+
+footer {
+    background-color: #3a2b2b; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado alrededor */
+    text-align: center; /* Alineación centrada del texto */
+    font-size: 14px; /* Tamaño de fuente */
+    position: fixed; /* Hace que el footer se quede fijo en la parte inferior */
+    bottom: 0; /* Asegura que esté en la parte inferior */
+    left: 0; /* Alineación al borde izquierdo */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
 }
