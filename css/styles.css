@@ -1,11 +1,6 @@
 header {
-<<<<<<< HEAD
-    background-color: #000000;
-    color: white;
-=======
     background-color: #554a4a;
     color: rgb(255, 255, 255);
->>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
     padding: 10px 0;
 }
 
@@ -30,14 +25,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    background-color: #a8a8a8;
-    color: #0f0f0f;
-}
-
-h1 {
-    color: #000000;
-=======
     background-color: #474444dc;
     color: #050505;
 }
@@ -51,7 +38,6 @@ h1 {
 
 h1 {
     color: #ffffffd2;
->>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
     text-align: center;
     margin-top: 20px;
 }
@@ -60,17 +46,6 @@ p {
     text-align: center;
 }
 
-<<<<<<< HEAD
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-=======
 #empanadas {
     text-align: left;
     margin: 20px;
@@ -96,7 +71,7 @@ footer {
 .empanada h3 {
     margin: 0; 
     font-size: 35px;
-    color: #242323;
+    color: #361616da;
 }
 
 .empanada p {
@@ -133,4 +108,16 @@ footer {
 #empanadas img:hover {
     transform: scale(1.05); 
 }
->>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
+
+footer {
+    background-color: #3a2b2b; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado alrededor */
+    text-align: center; /* Alineación centrada del texto */
+    font-size: 14px; /* Tamaño de fuente */
+    position: fixed; /* Hace que el footer se quede fijo en la parte inferior */
+    bottom: 0; /* Asegura que esté en la parte inferior */
+    left: 0; /* Alineación al borde izquierdo */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
