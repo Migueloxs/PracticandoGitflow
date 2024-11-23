@@ -25,19 +25,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-background-color: #9b9898d3;
+    background-color: #474444dc;
     color: #050505;
 }
 
 h1 {
     color: #23272b;
-
+    padding: 5px;
     background-color: #3a2b2b;
     color: #b5c461;
 }
 
 h1 {
-    color: #130000d2;
+    color: #ffffffd2;
     text-align: center;
     margin-top: 20px;
 }
