@@ -1,6 +1,11 @@
 header {
+<<<<<<< HEAD
     background-color: #000000;
     color: white;
+=======
+    background-color: #554a4a;
+    color: rgb(255, 255, 255);
+>>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
     padding: 10px 0;
 }
 
@@ -25,12 +30,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #a8a8a8;
     color: #0f0f0f;
 }
 
 h1 {
     color: #000000;
+=======
+    background-color: #474444dc;
+    color: #050505;
+}
+
+h1 {
+    color: #23272b;
+    padding: 5px;
+    background-color: #3a2b2b;
+    color: #b5c461;
+}
+
+h1 {
+    color: #ffffffd2;
+>>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
     text-align: center;
     margin-top: 20px;
 }
@@ -39,6 +60,7 @@ p {
     text-align: center;
 }
 
+<<<<<<< HEAD
 footer {
     background-color: #222;
     color: white;
@@ -48,3 +70,67 @@ footer {
     bottom: 0;
     width: 100%;
 }
+=======
+#empanadas {
+    text-align: left;
+    margin: 20px;
+}
+
+#empanadas h2 {
+    text-align: center;
+}
+
+
+.empanada {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+
+
+.empanada div {
+    flex: 1; 
+}
+
+.empanada h3 {
+    margin: 0; 
+    font-size: 35px;
+    color: #242323;
+}
+
+.empanada p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+
+}
+
+.empanada a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff; 
+    color: #080808; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 14px; 
+}
+
+.empanada a:hover {
+    background-color: #474242; 
+}
+/*efecto de imagenes y tama;o*/
+#empanadas img {
+    width: 320px; 
+    height: auto; 
+    margin: 10px; 
+    transition: transform 0.3s ease; 
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+#empanadas img:hover {
+    transform: scale(1.05); 
+}
+>>>>>>> 6fd34abfe3072cfbaa77c78521b19bc0b2650c16
