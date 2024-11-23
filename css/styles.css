@@ -148,3 +148,52 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/fondo-de-prueba.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombras suaves para el texto */
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Título en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.hero-content .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #ff7f50; /* Color de fondo para el botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #ff6347; /* Color cuando el botón es hover */
+}
