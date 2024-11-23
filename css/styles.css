@@ -25,7 +25,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #9b9898d3;
+    background-color: #635454d3;
     color: #050505;
 }
 
@@ -68,9 +68,10 @@ p {
 }
 
 .empanada p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     color: #ffffff;
+
 }
 
 .empanada a {
